@@ -1,0 +1,31 @@
+.pl {
+    background-color: white;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .pl   .pl-texts {
+    width: 100%;
+    color: black;
+  }
+  
+  .pl   .pl-texts .pl-title {
+    font-size: 75px;
+    font-weight: 600;
+  }
+/*   
+  .pl   .pl-texts .pl-desc {
+    margin: 20px 0px;
+  } */
+
+  .pl  .pl-list{
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }

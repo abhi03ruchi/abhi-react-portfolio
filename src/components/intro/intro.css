@@ -1,0 +1,126 @@
+.intros{
+    background-color: white;
+    display: flex;
+}
+.intros .left{
+    flex: 0.4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddff8f;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-top-left-radius: 8%;
+    border-bottom-left-radius: 8%;
+    /* box-shadow: 0 0  25px 10px rgba(0, 0, 0, 0.25) ; */
+    box-shadow: 0 0  25px 10px rgba(0, 0, 0, 0.1) ;
+}
+.intros .left .imgContainer {
+    width: 350px;
+    height: 400px;
+    box-shadow: inset 0 -0.5em 1em rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intros .left .imgContainer img {
+    width: 70%;
+    border-radius: 3%;
+}
+.intros .left .imgContainer .cicons{
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #000;
+    font-size: larger;
+}
+.intros .left .imgContainer .socialIcons a{
+    color: black;
+  padding-top: 30px;
+  padding-bottom: 4.5%;
+  padding-right: 8px;
+  margin: 10px; 
+  /*
+    margin: 20px; 
+    margin-top: 40px;
+   
+    border-radius: 50%;*/ 
+}
+.intros .left .imgContainer .socialIcons a:hover{
+    text-decoration: none;
+    /* color: #537406; */
+    /* padding: 2%; */
+}
+.intros .left .imgContainer .socialIcons .icc{
+    padding-left: 20px;
+    font-size: 48px;
+    transition: all 0.5s ease;
+}
+.intros .left .imgContainer .socialIcons .icc:hover{
+    padding-left: 20px;
+    font-size: 48px;
+    transform: scale(1.4);
+}
+.intros .right{
+    flex: 0.6;
+    /* position: relative; */
+    background-color: #ddff8f;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-top-right-radius: 8%;
+    border-bottom-right-radius: 8%;
+    /* box-shadow: 0 0  25px 10px rgba(0, 0, 0, 0.25) ;
+    box-shadow: 0 0  25px 10px rgba(0, 0, 0, 0.1) ; */
+}
+.intros .right .wrappers{
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    /* align-items: center;  */
+    padding-left : 50px; 
+    padding-right : 50px; 
+}
+.intros .right .wrappers .h1s{
+    font-size: 60px;
+}
+.intros .right .wrappers h2{
+    font-size: 35px;
+}
+.intros .right .wrappers .para{
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+.intros .right .wrappers a{
+    text-decoration: none;
+    background-color: black;
+    padding: 15px;
+    margin-bottom: 100px;
+    right: 45px;
+    left: 650px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+}
+.intros .right .wrappers a:hover{
+    background-color: #ddff8f;
+    color: #000;
+    border: 2px solid black;
+}
+.intros .right a{
+    position: absolute;
+    bottom: 30px;
+    left: 70%;
+}
+.intros .right a img{
+    width: 50px;
+    animation: arrowBlink 2s infinite;
+}
+@keyframes arrowBlink {
+    100% {
+      opacity: 0;
+    }
+}
